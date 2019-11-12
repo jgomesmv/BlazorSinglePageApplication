@@ -11,6 +11,7 @@ namespace BlazorSPA.Pages
     {
         protected IList<ToDoItem> todos = new List<ToDoItem>();
         protected string newTodo;
+        protected string headingFontStyle = "italic";
 
         protected void AddTodo()
         {
